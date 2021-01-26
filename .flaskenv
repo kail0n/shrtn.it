@@ -1,0 +1,2 @@
+FLASK_APP=shrtn
+FLASK_ENV=development
