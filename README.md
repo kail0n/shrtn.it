@@ -1,6 +1,8 @@
 # shrtn.it
 
     A basic link shortener using Python and Flask
+    App is in theory (...) deployed here: 
+    https://git.heroku.com/shrt1.git
 
 ## INSTALLATION
 
