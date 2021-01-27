@@ -12,8 +12,8 @@ def redirect_to_url(short_url):
 
     link.visits = link.visits + 1
     db.session.commit()
-    
-    return redirect(link.original_url)
+
+    return redirect(f'{link.original_url}')
 
 @short.route('/')
 @requires_auth

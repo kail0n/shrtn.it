@@ -8,7 +8,10 @@
 
 ## USAGE
 
-    Run: (py -m) pipenv shell top start subshell
-    Run: export FLASK_APP=app.py to tell the terminal which application to work with
-    Run: export FLASK_ENV=development to tell the terminal which environment to work in
+    Run: (py -m) pipenv shell to start subshell
+    Run: export FLASK_APP=shrtn
+    Run: export FLASK_ENV=development
     Run: flask run
+
+    When using the app, you need to use the entire link in the original URL (including the https://!)
+    e.g https://www.google.com
